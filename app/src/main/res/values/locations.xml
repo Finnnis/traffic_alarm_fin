@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="location_names">
-        <item>Door in class</item>
         <item>Дербеневская наб.</item>
         <item>Наб. Тараса Шевченко</item>
         <item>Кардиоцентр</item>
@@ -4699,7 +4698,6 @@
         <item>Ханой-Москва</item>
     </string-array>
     <string-array name="location_latitudes">
-        <item>55.7100789</item>
         <item>55.72566817</item>
         <item>55.74967848</item>
         <item>55.7572642</item>
@@ -9397,7 +9395,6 @@
         <item>55.87746046</item>
     </string-array>
     <string-array name="location_longitudes">
-        <item>37.4704595</item>
         <item>37.6551636</item>
         <item>37.57227413</item>
         <item>37.37550932</item>

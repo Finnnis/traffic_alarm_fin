@@ -2,13 +2,13 @@ package com.finnis.trafficalarmfin;
 
 import android.content.Intent;
 import android.media.Image;
+import com.finnis.trafficalarmfin.Activities.AboutUsActivity;
+import com.finnis.trafficalarmfin.Activities.FavoritesActivity;
+import com.finnis.trafficalarmfin.Activities.SettingsActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-import com.finnis.trafficalarmfin.Activities.AboutUsActivity;
-import com.finnis.trafficalarmfin.Activities.FavoritesActivity;
-import com.finnis.trafficalarmfin.Activities.SettingsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,14 +37,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        toSettings.setOnClickListener(new View.OnClickListener() {
+        toFavorites.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, FavoritesActivity.class);
                 startActivity(intent);
             }
         });
-        toSettings.setOnClickListener(new View.OnClickListener() {
+        toAboutUs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AboutUsActivity.class);
